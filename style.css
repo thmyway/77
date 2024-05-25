@@ -3,6 +3,7 @@ body {
     background-image: linear-gradient(#10244B,#507FDC);
     height: 100vh; 
     }
+
 header { 
     display: flex; 
     justify-content: space-between; 
@@ -10,32 +11,37 @@ header {
     padding: 15px; 
     margin-bottom: 20px; 
     }
+
 .logo {
     width: 250px;
     position: relative;
     right: 20px; transition: 
     right 3s linear; 
     }
-    header h1 {
-        color: #60449B;
-        font-size: 16px;
-        font-style: italic;
-        font-weight:bold;
-        position: absolute;
-        left: 71px;
-        top: 20px; 
+
+header h1 {
+    color: #60449B;
+    font-size: 16px;
+    font-style: italic;
+    font-weight:bold;
+    position: absolute;
+    left: 71px;
+    top: 20px; 
         }
+
 .nav { 
     padding: 25px 100px 25px 95px; 
     display: flex; 
     justify-content: space-between; 
     } 
+
 .nav-img {
     width: 40vw;
     position: absolute;
     left: 20px;
     top: 320px; 
     }
+
 .nav-link1 {
     font-size: 60px;
     color: white;
@@ -43,11 +49,13 @@ header {
     display: block;
     position: relative; 
     }
+
 .nav-link1:hover {
     color: #60449B;
     transform: scale(1.5);
     transition: all 2s linear;
     }
+
 .nav-link2 {
     font-size: 60px;
     color: white;
@@ -56,20 +64,26 @@ header {
     padding-top: 100px;
     position: relative;
     }
+
 .nav-link2:hover {
     color: #60449B;
     transform: scale(1.5);
     ransition: all 2s linear;
     }
-.nav-link3 {
-    font-size: 60px;
+
+.nav-link3 p    font-size: 60px;
     color: white;
     text-decoration: none;
     isplay: block; margin-top: 200px;
     position: relative; 
     }
+
 .nav-link3:hover {
     color: #60449B;
     transform: scale(1.5);
     transition: all 2s linear; 
     }
+
+.data{
+    color: yellow;
+    font-size: 20px;
